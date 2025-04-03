@@ -8,6 +8,10 @@ import javax.servlet.annotation.*;
 public class HelloServlet extends HttpServlet {
     private String message;
 
+
+    // 생명주기 객체가 생성 후 소멸 하는 과정.
+
+    //서버가 시작시 최초로 한번 실행 
     public void init() {
         message = "Hello World!";
     }
