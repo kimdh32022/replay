@@ -1,4 +1,4 @@
-package com.busanit501.board_login.todo;
+package com.busanit501.board_login.todo.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -12,30 +12,30 @@ public class TodoDTO {
     public Long getTno() {
         return tno;
     }
-    public void setTno(Long tno) {
-        this.tno = tno;
-    }
     public String getTitle() {
         return title;
-    }
-    public void setTitle(String title) {
-        this.title = title;
     }
     public String getContent() {
         return content;
     }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
     public Date getDate() {
         return date;
+    }
+    public boolean isDone() {
+        return done;
+    }
+
+    public void setTno(Long tno) {
+        this.tno = tno;
     }
     public void setDate(Date date) {
         this.date = date;
     }
-    public boolean isDone() {
-        return done;
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public void setContent(String content) {
+        this.content = content;
     }
     public void setDone(boolean done) {
         this.done = done;
