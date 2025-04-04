@@ -12,9 +12,10 @@ import java.io.IOException;
 public class TodoListController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-
+//       방법1
 //        RequestDispatcher dispatcher =request.getRequestDispatcher("/WEB-INF/todo/todoList.jsp");
 //        dispatcher.forward(request,response);
+//      방법2
         request.getRequestDispatcher("/WEB-INF/todo/todoList.jsp")
         .forward(request, response);
     }
