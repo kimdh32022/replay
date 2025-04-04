@@ -15,4 +15,10 @@ public class TodoRegController extends HttpServlet {
                 .forward(request, response);
     }
 
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        System.out.println("doPost : 글쓰기 처리하는 로직, DB연결 전이라 list로 이동함.");
+        response.sendRedirect("/todo/list");
+    }
+
 }
