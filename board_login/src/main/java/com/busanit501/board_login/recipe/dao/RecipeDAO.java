@@ -14,7 +14,7 @@ public class RecipeDAO {
             ResultSet resultSet = preparedStatement.executeQuery();
         ){
             resultSet.next();
-            now = resultSet.getString("1");
+            now = resultSet.getString(1);
         } // try
         catch (Exception e){
             e.printStackTrace();
