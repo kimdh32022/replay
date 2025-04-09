@@ -1,4 +1,4 @@
-package com.busanit501.board_login.recipe;
+package com.busanit501.board_login.recipe.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
